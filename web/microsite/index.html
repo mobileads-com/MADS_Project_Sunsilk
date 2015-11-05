@@ -1,0 +1,64 @@
+
+
+
+<img src='https://track.richmediaads.com/t?i=0aeded9c8b4194f374d54b03a30882be&cb=${mw_bid_id}&customId=${mw_exchange_id}' width='0' height='0' style='display:none' /><script type='text/javascript' src='https://cdn.richmediaads.com/general.js'></script><img src="__MW_IMPRESSION_URL__" width="0" height="0" style="display:none" />
+
+
+
+
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdn.jsdelivr.net/mobile-detect.js/latest/mobile-detect.min.js"></script>
+    <script>
+        var md = new MobileDetect(window.navigator.userAgent);
+        console.log( md.mobile() );          // 'Sony'
+        console.log( md.phone() );           // 'Sony'
+        console.log( md.tablet() );   
+
+        if (md.phone() != null) {
+            /* smartphone */
+
+            var rma ={
+            'campaignId':'8b16e5a47d8b3b3a1ce827307176bcbb',
+            'secure':'true',
+            'customize':{'custTracker':['http://trk.mwstats.net/stats/interaction.png?id=${mw_bid_id}&li=${mw_lineitem_id}&t=${mw_timestamp}&cr=${mw_creative_id}','https://track.richmediaads.com/a/analytic.htm?uid=0&isNew={{isNew}}&referredUrl={{referredUrl}}&rmaId={{rmaId}}&domainId=0&pageLoadId={{pageLoadId}}&userId={{userId}}&pubUserId=0&campaignId={{campaignId}}&browser={{browser}}&os={{os}}&domain={{domain}}&callback=trackSuccess&callback=trackSuccess&type={{type}}&tt={{tt}}&value={{value}}']}
+            };
+
+            var img = document.createElement('img');
+            img.src = 'https://track.richmediaads.com/t?i=8b16e5a47d8b3b3a1ce827307176bcbb';
+            img.width = '0';
+            img.height = '0';
+            img.style.display = 'none';
+            document.body.appendChild(img);
+            
+        } else if (md.tablet() != null) {
+            /* tablet */
+            var rma ={
+            'campaignId':'c49d46443d5d40bfafeea6559a0355ce',
+            'secure':'true',
+            'customize':{'custTracker':['http://trk.mwstats.net/stats/interaction.png?id=${mw_bid_id}&li=${mw_lineitem_id}&t=${mw_timestamp}&cr=${mw_creative_id}','https://track.richmediaads.com/a/analytic.htm?uid=0&isNew={{isNew}}&referredUrl={{referredUrl}}&rmaId={{rmaId}}&domainId=0&pageLoadId={{pageLoadId}}&userId={{userId}}&pubUserId=0&campaignId={{campaignId}}&browser={{browser}}&os={{os}}&domain={{domain}}&callback=trackSuccess&callback=trackSuccess&type={{type}}&tt={{tt}}&value={{value}}']}
+            };
+            
+            var img = document.createElement('img');
+            img.src = 'https://track.richmediaads.com/t?i=c49d46443d5d40bfafeea6559a0355ce';
+            img.width = '0';
+            img.height = '0';
+            img.style.display = 'none';
+            document.body.appendChild(img);
+    
+        } else {
+            /* desktop */
+            window.location = 'http://sunsilk.co.id';
+        }
+    </script>
+</head>
+<body style="margin:0;width:100%;height:100%;position:relative;">
+	
+<script type='text/javascript' src='https://cdn.richmediaads.com/general.js'></script><img src="__MW_IMPRESSION_URL__" width="0" height="0" style="display:none" />
+
+</body>
+</html>
